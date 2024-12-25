@@ -1,0 +1,52 @@
+
+import tkinter
+from tkinter import *
+
+root =Tk()
+root.title("Grade Calculater")
+root.geometry("500x400")
+
+def Calucaltion():
+    english=int(english.get())
+    maths=int(mathentry.get())
+    chemistry=int(chemistryentry.get())
+    total=(english+maths+chemistry)
+    Label(text=f"{total}",font="arial 15 bold").place(x=250,y=170)
+
+average= int(total/3)
+Label(text=f"{average}",font="arial 15 bold").place(x=250,y=210)
+
+if(average>50):
+    grade="PASS"
+else:
+    grade="FAIL"  
+
+Label(text=f"{grade}",font="arial 15 bold").place(x=250,y=270)   
+
+#subject
+sub1=Label(root,text="English:",font="arial 10")
+sub2=Label(root,text="Math:",font="arial 10")
+sub3=Label(root,text="Chemistry:",font="arial 10")
+total=Label(root,text="Total:",font="arial 10")
+avg=Label(root,text="Average:",font="arial 10")
+grade=Label(root,text="Grade:",font="arial 10")
+
+
+sub1.place(x=50,y=20)
+sub2.place(x=50,y=70)
+sub3.place(x=50,y=120)
+total.place(x=50,y=170)
+avg.place(x=50,y=210)
+grade.place(x=50,y=250)
+
+englishvalue=StringVar()
+mathvalue = StringVar()
+chemistryvalue=StringVar()
+
+engishentry=Entry(root,textvariable=englishvalue,font="arial 15",width=15)
+mathentry=Entry(root,textvariable=mathvalue,font="arial 15",width=15)
+chemistryentry=Entry(root,textvariable=chemistryvalue,font="aria l5",width=15)
+
+
+root.mainloop()
+
