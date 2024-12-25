@@ -1,6 +1,6 @@
 ## Student-Grade-Tracker ##
 
-<h6> He objective of the Student Grade Tracker project is to develop a reliable, efficient, and user-friendly system for recording, managing, and analyzing student grades. This tool aims to enhance the academic experience by improving transparency, streamlining administrative tasks, and promoting data-driven decision-making for educators, students, and parents.
+<h6> The objective of the Student Grade Tracker project is to develop a reliable, efficient, and user-friendly system for recording, managing, and analyzing student grades. This tool aims to enhance the academic experience by improving transparency, streamlining administrative tasks, and promoting data-driven decision-making for educators, students, and parents.
 
 Specifically, the project seeks to:
 
